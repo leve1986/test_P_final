@@ -13,7 +13,7 @@
 	</parent>
 
 	<dependencies>
-                <dependency>
+                <plugin>
                        <groupId>org.apache.maven.plugins</groupId>
                        <artifactId>maven-surefire-plugin</artifactId>
                        <version>${maven-surefire-plugin.version}</version>
@@ -22,7 +22,7 @@
                            <runOrder>alphabetical</runOrder>
                            <useSystemClassLoader>false</useSystemClassLoader>
                        </configuration>
-                </dependency>
+                </plugin>
 
 		<dependency>
 			<groupId>org.webjars</groupId>
